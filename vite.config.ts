@@ -17,6 +17,7 @@ export default defineConfig({
             enabled: true,
             autoStaticPathsDiscovery: true,
             crawlLinks: true,
+            filter: ({ path }) => path !== "/resume.pdf",
           },
           pages: [{ path: "/" }],
         }),

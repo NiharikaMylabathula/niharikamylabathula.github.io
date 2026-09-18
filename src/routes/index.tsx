@@ -4,10 +4,10 @@ import { Download } from "lucide-react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Portfolio — Data Scientist & ML Engineer" },
-      { name: "description", content: "Data science and ML engineering portfolio: production models, RAG pipelines, and MLOps case studies." },
-      { property: "og:title", content: "Portfolio — Data Scientist & ML Engineer" },
-      { property: "og:description", content: "Data science and ML engineering portfolio: production models, RAG pipelines, and MLOps case studies." },
+      { title: "Niharika Mylabathula — Data Science & Quantitative Methods" },
+      { name: "description", content: "Portfolio of Niharika Mylabathula — data science, machine learning, causal inference, and quantitative methods." },
+      { property: "og:title", content: "Niharika Mylabathula — Data Science & Quantitative Methods" },
+      { property: "og:description", content: "Projects in data science, machine learning, causal inference, and quantitative methods." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
@@ -24,13 +24,14 @@ function HomePage() {
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
             <div className="order-2 lg:order-1">
               <p className="text-sm font-medium uppercase tracking-widest text-primary">
-                Data Scientist & ML Engineer
+                Data Science · Machine Learning · Quantitative Methods
               </p>
               <h1 className="mt-4 font-display text-4xl font-bold leading-[1.1] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-                Turning messy data into models that ship.
+                Turning data into decisions.
               </h1>
               <p className="mt-6 max-w-lg text-lg text-muted-foreground">
-                I build end-to-end ML systems — from feature pipelines and model training to evaluation, deployment, and monitoring. Focused on measurable impact and reliable production behavior.
+                I use statistics, machine learning, and causal inference to uncover patterns,
+  build predictive models, and make better decisions under uncertainty.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link
