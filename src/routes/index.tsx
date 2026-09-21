@@ -215,15 +215,15 @@ const recentPosts = [
   {
     id: 1,
     title: "Your Best Customers Might Be the Worst People to Target",
-    date: "Article idea",
-    excerpt: "Using causal ML to distinguish likely buyers from customers whose decisions a promotion can actually change.",
+    date: "Article",
+    excerpt: "Using causal ML to separate persuadable customers from those who would buy anyway.",
     image: "/images/blog-causal-promotion.jpg",
   },
   {
     id: 2,
-    title: "My Churn Model Had 90% AUC—and Targeted the Wrong Customers",
-    date: "Article idea",
-    excerpt: "Why predictive accuracy alone cannot tell you which customers will respond to a retention intervention.",
-    image: "/images/blog-churn-targeting.jpg",
+    title: "The Economics of Sports Betting",
+    date: "Article",
+    excerpt: "Exploring how odds, probabilities, market efficiency, and incentives shape sports betting.",
+    image: "/econ_sports.png",
   },
 ];
